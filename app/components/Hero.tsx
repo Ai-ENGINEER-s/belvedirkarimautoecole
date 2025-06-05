@@ -47,7 +47,7 @@ const Hero = () => {
   }, [carImages.length]);
 
   return (
-    <section className="relative min-h-screen overflow-hidden flex items-center justify-center">
+    <section className="relative min-h-screen overflow-hidden flex items-center justify-center" id='hero'>
       {/* Background Carousel with Parallax Effect */}
       <div className="absolute inset-0 z-0">
         {carImages.map((image, index) => (

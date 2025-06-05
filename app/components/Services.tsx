@@ -4,7 +4,7 @@ const Services = () => {
   const [activeTab, setActiveTab] = useState("TOUS");
 
   return (
-    <section className="relative min-h-screen bg-gradient-to-br from-black via-gray-900 to-black py-20" id="formations">
+    <section className="relative min-h-screen bg-gradient-to-br from-black via-gray-900 to-black py-20" id="services">
       {/* Animated Background */}
       <div className="absolute inset-0">
         <div className="absolute top-20 -left-4 w-96 h-96 bg-orange-500 rounded-full mix-blend-multiply filter blur-xl opacity-5 animate-pulse"></div>
