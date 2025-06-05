@@ -30,12 +30,7 @@ export default function Home() {
 
   return (
     <>
-      <Head>
-        <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Auto École Belvédère Kiram - 50 ans d&apos;expérience</title>
-  
-      </Head>
+   
 
       <div>
         {/* Header */}
@@ -50,19 +45,20 @@ export default function Home() {
         {/* Welcome Section */}
         <WelcomeSection />
 
-        {/* Partners Section */}
-        <Partners />
+      
 
         {/* Services Section */}
         <Services />
 
         <Stats />
 
-        <CTA />
-        {/* News Section */}
-        <News />
+        {/* <CTA /> */}
+        <Testimonials />
+        {/* <News /> */}
 
-    <Testimonials />
+
+      {/* Partners Section */}
+      {/* <Partners /> */}
         <Footer />
       </div>
     </>
