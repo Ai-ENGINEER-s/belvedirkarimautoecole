@@ -163,9 +163,10 @@ const Header: React.FC<HeaderProps> = ({ className = '' }) => {
                       <div className="absolute -inset-0.5 sm:-inset-1 bg-gradient-to-r from-orange-500 to-red-500 rounded-lg sm:rounded-xl lg:rounded-2xl blur opacity-30 group-hover:opacity-60 transition-opacity" />
                     </div>
                     <div>
-                      <h4 className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-black bg-gradient-to-r from-gray-900 via-gray-700 to-gray-900 bg-clip-text text-transparent group-hover:from-orange-600 group-hover:via-red-600 group-hover:to-orange-600 transition-all duration-500">
-                      AUTO ÉCOLE KIRAM
-                      </h4>
+                    <h4 className="text-sm sm:text-base md:text-lg lg:text-xl font-black bg-gradient-to-r from-gray-900 via-gray-700 to-gray-900 bg-clip-text text-transparent group-hover:from-orange-600 group-hover:via-red-600 group-hover:to-orange-600 transition-all duration-500">
+  AUTO ÉCOLE KIRAM
+</h4>
+
                       <p className="text-xs sm:text-sm font-semibold text-gray-500 group-hover:text-orange-500 transition-colors hidden md:block">
                         Excellence • Innovation • Prestige
                       </p>

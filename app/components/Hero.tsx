@@ -34,8 +34,8 @@ const Hero = () => {
   // Images de voitures premium pour le carousel
   const carImages = [
     "https://images.unsplash.com/photo-1555215695-3004980ad54e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80", // Luxury sports car
-    "https://images.unsplash.com/photo-1542282088-fe8426682b8f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2126&q=80", // Premium sedan
-    "https://images.unsplash.com/photo-1549399686-e8c96e05e204?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80", // Modern car interior
+    "https://images.unsplash.com/photo-1617788138017-80ad40651399?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80", // Premium sedan
+    "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?ixlib=rb-4.0.3&auto=format&fit=crop&w=2069&q=80", // Modern car interior
   ];
 
   // Auto-slide functionality
