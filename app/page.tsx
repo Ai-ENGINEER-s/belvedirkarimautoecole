@@ -19,15 +19,6 @@ import Header from "./components/Header";
 export default function Home() {
 
 
-
-
-
-
-  const handleFormSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    alert('Merci pour votre demande ! Nous vous contacterons bientôt.');
-  };
-
   return (
     <>
    

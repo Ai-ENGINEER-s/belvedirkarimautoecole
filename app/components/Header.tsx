@@ -33,7 +33,7 @@ const Header = () => {
     { id: 'accueil', label: 'Accueil' },
     { id: 'formations', label: 'Formations' },
     { id: 'tarifs', label: 'Tarifs' },
-    { id: 'annexes', label: 'Annexes' },
+    { id: 'stats-section', label: 'Annexes' },
     { id: 'contact', label: 'Contact' }
   ];
 

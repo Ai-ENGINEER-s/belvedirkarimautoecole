@@ -72,7 +72,7 @@ const Stats = () => {
   return (
     <section 
       id="stats-section"
-      className="relative py-20 bg-black/80 backdrop-blur-md rounded-3xl p-8 h-full border border-orange-500/20 overflow-hidden"
+      className="relative py-20 bg-black/80 backdrop-blur-md rounded-3xl p-8 h-full border border-orange-500/20 overflow-hidden" 
     >
       {/* Animated Background */}
       <div className="absolute inset-0">
