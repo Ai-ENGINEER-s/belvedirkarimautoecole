@@ -39,22 +39,21 @@ const PremiumSearch = () => {
       // setFormData({ typeFormation: '', annexe: '', budget: '' });
     }, 2000);
   };
-
   const formationTypes = [
-    { value: 'permis-b', label: 'Permis B', subtitle: 'Voiture', icon: '🚗' },
-    { value: 'permis-a', label: 'Permis A', subtitle: 'Moto', icon: '🏍️' },
-    { value: 'permis-c', label: 'Permis C', subtitle: 'Poids Lourd', icon: '🚛' }
+    { value: 'permis-b', label: 'Permis B', subtitle: 'Voiture Tourisme', icon: '🚗' },
+    { value: 'permis-a', label: 'Permis A', subtitle: 'Motocyclette', icon: '🏍️' },
+    { value: 'permis-c', label: 'Permis C', subtitle: 'Transport Lourd', icon: '🚛' },
+    { value: 'permis-d', label: 'Permis D', subtitle: 'Transport Voyageurs', icon: '🚌' }
   ];
 
   const annexes = [
-    { value: 'belvedere-1', label: 'Belvédère', subtitle: 'Annexe 1', location: 'Centre-ville' },
-    { value: 'belvedere-2', label: 'Belvédère', subtitle: 'Annexe 2', location: 'Centre-ville' },
-    { value: 'belvedere-3', label: 'Belvédère', subtitle: 'Annexe 3', location: 'Centre-ville' },
-    { value: 'belvedere-4', label: 'Belvédère', subtitle: 'Annexe 4', location: 'Centre-ville' },
-    { value: '2mars-1', label: '2 Mars', subtitle: 'Annexe 1', location: 'Quartier 2 Mars' },
-    { value: '2mars-2', label: '2 Mars', subtitle: 'Annexe 2', location: 'Quartier 2 Mars' }
+    { value: 'belvedere-1', label: 'Auto-École Belvédère', subtitle: 'Succursale Principale', location: 'Belvédère, Casablanca' },
+    { value: 'belvedere-2', label: 'Auto-École Belvédère', subtitle: 'Succursale 2', location: 'Belvédère, Casablanca' },
+    { value: '2mars-1', label: 'Auto-École 2 Mars', subtitle: 'Succursale 1', location: '2 Mars, Casablanca' },
+    { value: '2mars-2', label: 'Auto-École 2 Mars', subtitle: 'Succursale 2', location: '2 Mars, Casablanca' },
+    { value: 'maarif-1', label: 'Auto-École Maârif', subtitle: 'Succursale Principale', location: 'Maârif, Casablanca' },
+    { value: 'ain-sebaa-1', label: 'Auto-École Aïn Sebaâ', subtitle: 'Succursale Principale', location: 'Aïn Sebaâ, Casablanca' }
   ];
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-white via-orange-50 to-white relative overflow-hidden">
       {/* Animated background elements */}
